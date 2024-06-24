@@ -14,4 +14,4 @@ def home_view(request: Request):
 
 @app.post("/")
 def home_detail_view():
-    return {"hello": "world"}
+    return {"message": "Hello, World!"}
